@@ -1,0 +1,28 @@
+/* Intro */
+
+	.color-accent {
+        color: _palette(accent);
+	}
+
+    .box.accent {
+        border-color: _palette(accent);
+	}
+
+    .text-hyphens,
+    [lang] {
+        -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+        hyphens: auto;
+    }
+
+    .mr-b {
+        margin-bottom: 0;
+    }
+
+    .mr-b-15 {
+        margin-bottom: 1.5rem !important;
+    }
+
+    .dsp-fr {
+        display: flow-root;
+    }
