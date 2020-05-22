@@ -2873,6 +2873,10 @@ table.alt tbody tr td {
   hyphens: auto;
 }
 
+.mr-t-15 {
+  margin-top: 1.5rem !important;
+}
+
 .mr-b {
   margin-bottom: 0;
 }
@@ -2883,6 +2887,26 @@ table.alt tbody tr td {
 
 .dsp-fr {
   display: flow-root;
+}
+
+.resp-tab thead {
+  background-color: #bb33cc;
+}
+.resp-tab thead th {
+  padding-top: 0.75rem;
+  color: #ffffff;
+  vertical-align: middle;
+}
+.resp-tab thead th:first-child {
+  font-size: 1rem;
+}
+.resp-tab tr th:first-child, .resp-tab tr td:first-child {
+  width: 100%;
+  word-break: break-all;
+}
+.resp-tab tr th:not(:first-child), .resp-tab tr td:not(:first-child) {
+  text-align: center;
+  white-space: nowrap;
 }
 
 /* Wrapper */
@@ -4190,5 +4214,3 @@ body.is-loading #intro:not(.hidden) + #header + #nav {
     visibility: visible;
   }
 }
-
-/*# sourceMappingURL=main.css.map */

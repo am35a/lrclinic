@@ -15,6 +15,10 @@
         hyphens: auto;
     }
 
+    .mr-t-15 {
+        margin-top: 1.5rem !important;
+    }
+
     .mr-b {
         margin-bottom: 0;
     }
@@ -25,4 +29,30 @@
 
     .dsp-fr {
         display: flow-root;
+    }
+
+    .resp-tab {
+        thead {
+            background-color: #bb33cc;
+            th {
+                &:first-child {
+                    font-size: 1rem;
+                }
+                padding-top: 0.75rem;
+                color: #ffffff;
+                vertical-align: middle;
+            }
+        }
+        tr {
+            th, td {
+                &:first-child {
+                    width: 100%;
+                    word-break: break-all;
+                }
+                &:not(:first-child){
+                    text-align: center;
+                    white-space: nowrap;
+                }
+            }
+        }
     }
